@@ -37,7 +37,7 @@
 # 찾아는 지지만 그룹으로 만들고 싶지 않다면 사용 
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/28a45566-3e9f-44b1-88d2-be9c0053e661)
 
-#
+# 또는
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b5b69959-050d-41c0-bcbc-b199e0b32729)
 
 # 하나라도 있으면
