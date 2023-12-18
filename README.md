@@ -42,7 +42,7 @@
 # 또는(Ex로 시작하고 p또는 r 또는 e가 있고 l로 끝남)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b5b69959-050d-41c0-bcbc-b199e0b32729)
 
-# Ex로 시작하고 중간 글자가 e가 되고 ddd로 끝나는 것을 찾음
+# Ex로 시작하고 중간 글자가 pre가 되고 l로 끝나는 것을 찾음
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/7ac94d7b-cb80-426a-a3f0-4fb8245fa3e8)
 
 # 아래 두 이미지는 Ex로 시작하고 a~g 사이의 글자 중 하나라도 포함되고 y로 끝나는 것을 찾음
