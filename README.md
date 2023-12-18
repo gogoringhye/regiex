@@ -39,7 +39,7 @@
 
 
 
-# 또는(Ex로 시작하고 a 또는 e 또는 d가 있고 y로 끝남)
+# 또는(Ex로 시작하고 p또는 r 또는 e가 있고 l로 끝남)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b5b69959-050d-41c0-bcbc-b199e0b32729)
 
 # 하나라도 있으면
