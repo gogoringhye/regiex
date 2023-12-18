@@ -28,5 +28,5 @@
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/3aac4b6a-ebb0-45dc-9f97-35535ce28f58)
 
 
-![image](https://github.com/gogoringhye/regiex/assets/145514996/1ef473fc-ef11-4d2a-b567-66e9843f8b51)
+![image](https://github.com/gogoringhye/regiex/assets/145514996/29c6528e-58f8-43fc-b9a0-c7b6ab3c5870)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/8c5a79b3-8470-4902-8753-72ab0c2a2217)
