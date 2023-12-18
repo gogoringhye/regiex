@@ -34,6 +34,6 @@
 # EX로 시작하고 중간글자가 p 또는 r가 되고 끝에는 l로 되는 것을 찾을 수 있음 
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/643dc367-c33d-4a90-b27b-2ae8f5bff75f)
 
-# 찾아는 지지만 그룹으로 만들고 싶지 않다면 사용
+# 찾아는 지지만 그룹으로 만들고 싶지 않다면 사용 
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/28a45566-3e9f-44b1-88d2-be9c0053e661)
 
