@@ -42,5 +42,10 @@
 # 또는(Ex로 시작하고 p또는 r 또는 e가 있고 l로 끝남)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b5b69959-050d-41c0-bcbc-b199e0b32729)
 
-# 하나라도 있으면
+# Ex로 시작하고
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/7ac94d7b-cb80-426a-a3f0-4fb8245fa3e8)
+
+# 같은 의미
+![image](https://github.com/gogoringhye/regiex/assets/145514996/b263833b-f2d0-4d4d-ad86-62c3529693d6)
+![image](https://github.com/gogoringhye/regiex/assets/145514996/cbb1fcff-2934-40ea-9a64-f1fbe633b7a0)
+
