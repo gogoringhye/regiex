@@ -31,5 +31,6 @@
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/29c6528e-58f8-43fc-b9a0-c7b6ab3c5870)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/8c5a79b3-8470-4902-8753-72ab0c2a2217)
 
-#EX로 시작하고 중간글자가 p 또는 r가 되고 끝에는 ""로 되는 것을 찾을 수 있음 나는 r까지만 찾은거
-![image](https://github.com/gogoringhye/regiex/assets/145514996/905c3145-78d0-4ff9-a74c-3b8bcb2b7248)
+#EX로 시작하고 중간글자가 p 또는 r가 되고 끝에는 l로 되는 것을 찾을 수 있음 
+![image](https://github.com/gogoringhye/regiex/assets/145514996/643dc367-c33d-4a90-b27b-2ae8f5bff75f)
+
