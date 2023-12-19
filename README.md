@@ -91,7 +91,8 @@
 # {n} :n번 반복(ex s 두번 반복)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b7775ddc-33ef-4ff7-8782-65ad04449362)
 
-
+# {min,}: 최소
+![image](https://github.com/gogoringhye/regiex/assets/145514996/7b79ec39-234d-4029-8bbd-f077c0835c31)
 
 
 복습
