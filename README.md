@@ -49,7 +49,18 @@
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b263833b-f2d0-4d4d-ad86-62c3529693d6)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/cbb1fcff-2934-40ea-9a64-f1fbe633b7a0)
 
+#  
+![image](https://github.com/gogoringhye/regiex/assets/145514996/b630d50a-002c-477b-a722-27b3ef05d6bf)
 
 
+
+
+
+
+
+
+복습
+![image](https://github.com/gogoringhye/regiex/assets/145514996/52dc2f53-5482-4c81-8998-27473cdf2a97)
+![image](https://github.com/gogoringhye/regiex/assets/145514996/9bdc2b8b-f398-4223-bbfb-88bcbbe90e2a)
 
 
