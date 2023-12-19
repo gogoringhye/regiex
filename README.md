@@ -86,7 +86,7 @@
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/1bcfb710-5673-4bee-8882-611094b27578)
 
 # +: 하나 또는 많거나 (one or more)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/c940b9cb-c147-40f7-a5dd-31d37c9f1319)
+![image](https://github.com/gogoringhye/regiex/assets/145514996/0a13d23b-113f-4915-9cca-8ea9a022dcc5)
 
 # {n} :n번 반복(ex. s 두번 반복)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/9bce5939-e443-406d-b3e4-15941c6e69f0)
