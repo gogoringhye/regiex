@@ -42,7 +42,11 @@
    - \ : 특수문자가 아닌 문자
    - . : 어떤 글자(줄바꿈 문자 제외)
    - \d:(digit) 숫자
-   - \D: 숫자가 아님 
+   - \D: 숫자가 아님
+   - \w: 문자
+   - \W: 문자 아님
+   - \s: 공백
+   - \S: 공백 아님 
 
 라인 마다마다
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/3aac4b6a-ebb0-45dc-9f97-35535ce28f58)
