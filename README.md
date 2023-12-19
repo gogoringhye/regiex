@@ -49,7 +49,7 @@
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b263833b-f2d0-4d4d-ad86-62c3529693d6)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/cbb1fcff-2934-40ea-9a64-f1fbe633b7a0)
 
-# 소문자 a부터 z까지, A부터 Z까지
+# 소문자 a부터 z까지, A부터 Z까지, 0부터 9까지 하나라도 만족하면 모두 찾는다
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b630d50a-002c-477b-a722-27b3ef05d6bf)
 
 
