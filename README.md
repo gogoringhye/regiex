@@ -52,7 +52,7 @@
 # 소문자 a부터 z까지, A부터 Z까지, 0부터 9까지 하나라도 만족하면 모두 찾는다
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b630d50a-002c-477b-a722-27b3ef05d6bf)
 
-#
+# 
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/7704e5ac-6486-49cd-9dd9-f01b6a4b135a)
 
 
