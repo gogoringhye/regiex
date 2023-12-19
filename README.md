@@ -52,6 +52,9 @@
 # 소문자 a부터 z까지, A부터 Z까지, 0부터 9까지 하나라도 만족하면 모두 찾는다
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b630d50a-002c-477b-a722-27b3ef05d6bf)
 
+#
+![image](https://github.com/gogoringhye/regiex/assets/145514996/7704e5ac-6486-49cd-9dd9-f01b6a4b135a)
+
 
 
 
@@ -62,5 +65,6 @@
 복습
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/52dc2f53-5482-4c81-8998-27473cdf2a97)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/9bdc2b8b-f398-4223-bbfb-88bcbbe90e2a)
+![image](https://github.com/gogoringhye/regiex/assets/145514996/1bad9ec0-8eff-4095-839b-2dd8849f958b)
 
 
