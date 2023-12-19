@@ -85,6 +85,8 @@
 # *: 있거나 없거나 많거나
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/1bcfb710-5673-4bee-8882-611094b27578)
 
+# +: 
+![image](https://github.com/gogoringhye/regiex/assets/145514996/c940b9cb-c147-40f7-a5dd-31d37c9f1319)
 
 
 
