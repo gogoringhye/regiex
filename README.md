@@ -88,11 +88,15 @@
 # +: 하나 또는 많거나 (one or more)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/c940b9cb-c147-40f7-a5dd-31d37c9f1319)
 
-# {n} :n번 반복(ex s 두번 반복)
+# {n} :n번 반복(ex. s 두번 반복)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b7775ddc-33ef-4ff7-8782-65ad04449362)
 
 # {min,}: 최소
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/7b79ec39-234d-4029-8bbd-f077c0835c31)
+
+# {min,max}:최소 그리고 최대(s를 2개부터 4개까지 찾음)
+![image](https://github.com/gogoringhye/regiex/assets/145514996/d738aa70-ef43-4a0f-957f-677102f3b3e0)
+
 
 
 복습
