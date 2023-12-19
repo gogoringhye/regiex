@@ -88,7 +88,7 @@
 # +: 하나 또는 많거나 (one or more)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/c940b9cb-c147-40f7-a5dd-31d37c9f1319)
 
-# {n} :n번 반복
+# {n} :n번 반복(ex s 두번 반복)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/b7775ddc-33ef-4ff7-8782-65ad04449362)
 
 
