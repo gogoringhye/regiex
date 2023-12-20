@@ -51,11 +51,20 @@
    - \ : 특수문자 .를 찾고자할때
  - ![image](https://github.com/gogoringhye/regiex/assets/145514996/a8fc5c93-34fc-49fb-b672-8fd809422250)
     - . : 어떤 글자(줄바꿈 문자 제외)
-  
+  ![image](https://github.com/gogoringhye/regiex/assets/145514996/0fe2995c-5ce9-408f-b671-691be329b2eb)
+
    - \d:(digit) 숫자
+   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/1b2e9441-53a8-431c-bd77-2511d0a891e2)
+
    - \D: 숫자가 아님
-   - \w: 문자
+   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/bee5215f-9ff9-4415-b168-3ac998aba596)
+
+   - \w: 문자--> 문자와 숫자
+   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/3ad36596-f6fc-4afc-b4b1-e1af201718ed)
+
    - \W: 문자 아님
+   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/d0ab7304-0ad1-4e40-b775-1d7bf0d71494)
+
    - \s: 공백
    - \S: 공백 아님 
 
