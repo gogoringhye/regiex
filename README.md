@@ -48,7 +48,7 @@
 
 
 4) 특징을 이용하는 방법
-   - \ : 특수문자
+   - \ : 특수문자 .를 찾고자할때
  - ![image](https://github.com/gogoringhye/regiex/assets/145514996/a8fc5c93-34fc-49fb-b672-8fd809422250)
     - . : 어떤 글자(줄바꿈 문자 제외)
   
