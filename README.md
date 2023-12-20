@@ -35,10 +35,17 @@
 3) 경계에 대한
  - \b : 단어경계 --> /\bEx --> 단어 중에서 Ya로 시작하는 것
    ![image](https://github.com/gogoringhye/regiex/assets/145514996/bfc558c7-32e2-4214-9d45-998bc9b734b6)
+ - \b : 단어경계 --> Ya\b/ --> Ya인데 단어 중에서 Ya로 시작하는 것
+ - ![image](https://github.com/gogoringhye/regiex/assets/145514996/95ded27d-5d5e-413e-8812-cc3be8243bd5)
+- \B: 단어 경계가 아님 --> /Ya\B/ ->
+![image](https://github.com/gogoringhye/regiex/assets/145514996/44a8d544-5306-47d8-b3be-bc7057a0bfca)
+ - ^ :문장의 시작
+![image](https://github.com/gogoringhye/regiex/assets/145514996/78b57ac9-ae05-47c0-997f-b42b46919921)
 
  - \B : 단어경계가 아님
  - ^ : (대괄호 밖의 꺽새는) 문장의 시작
- - $ : 문장의 끝
+ - $ : 문장의 끝![image](https://github.com/gogoringhye/regiex/assets/145514996/c30942c8-0028-4d64-9484-17bcb2dadd22)
+
 
 4) 특징을 이용하는 방법
    - \ : 특수문자가 아닌 문자
