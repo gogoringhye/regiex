@@ -1,133 +1,101 @@
-# regiex(https://regexr.com/)
-
 # 정규표현식
-
-# /regiex/ ==> Reqular expression의 약자
+# /regiex/  ==> Regular expression의 약자
 
 # 언제 사용하는가?
-- 텍스트에서 우리가 원하는 특정한 패턴을 찾을 때(전화번호 형태의 패턴, 웹사이트 주소 형태의 패턴, 이메일 형식의 패턴을 찾을 때 등등)
-- 사용자가 입력한 텍스트가 이메일이나 패스워드와 같이 특정한 패턴에 부합하는지 유효성 검사를 할때도 사용할 수 있다.
-- 정규식은 문자를 검사하고자 할때 사용하는 식이다.
+ - 텍스트에서 우리가 원하는 특정한 패턴을 찾을때 (전화번호형태의 패턴, 웹사이트주소형태의 패턴,이메일형식의 패턴을 찾을때 등등)
+ - 사용자가 입력한 텍스트가 이메일이나 패스워드와 같이 특정한 패턴에 부합하는지 유효성검사흘 할때도 사용할수 있다
+ - 정규식은 문자를 검사하고자할때 사용하는 식이다.
 
-  # 정규식은 /로 시작하여 "나는 정규표현식"임을 나타낸다
+# 정규식은 /로 시작하여 "나는 정규표현식"임을 나타낸다
 - /우리가 찾고자하는 패턴/
 
 - /regex/i
-- i는 어떤 옵션에 따라서 검색할건지 플래그를 활용할 수 있다.
+- i는 어떤 옵션에 따라 검색할건지 플래그를 활용할수 있다.
 
-  🤓 문법
-  1) Groups anf ranges
-     - | : 또는
-     - (): 그룹
-     - []: 문자셋, 괄호 안에 있는 어떤 문자든
-     - [^]:(대괄호 안의 꺽새는)부정 문자 셋, 괄호 안의 어떤 문자가 아닐 때를 의미
-     - (?:):찾지만 기억하지는 않음
-
-
-2) 제한(한정)하기 위해서 사용하는
-   - ?: 없거나 있거나(zero or one)
-   - *: 없거나 있거나 많거나(zero or more)
-   - +: 하나 또는 많거나(one or more)
-   - {n}: n번 반복
-   - {min,}: 최소
-   - {min,max}: 최소(얼마) 그리고 최대(얼마)
+# 문법
+ 1) Groups anf ranges
+   - |   : 또는
+   - ()  : 그룹
+   - []  : 문자셋, 괄호안의 어떤 문자든
+   - [^] : 부정 문자셋, 괄호안의 어떤 문자가 아닐때
+   - (?:) : 찾지만 기억하지는 않음 
+2) 제한하기위해 사용하는
+  - ? :없거나 있거나(zero or one)
+  - * : 없거나 있거나 많거나(zero or more)
+  - + : 하나 또는 많거나(one or more)
+  - {n} : n번 반복
+  - {min,} : 최소
+  - {min,max} : 최소 그리고 최대
 
 3) 경계에 대한
- - \b : 단어경계 --> /\bEx --> 단어 중에서 Ya로 시작하는 것
-   ![image](https://github.com/gogoringhye/regiex/assets/145514996/bfc558c7-32e2-4214-9d45-998bc9b734b6)
- - \b : 단어경계 --> Ya\b/ --> Ya인데 단어 중에서 Ya로 시작하는 것
- - ![image](https://github.com/gogoringhye/regiex/assets/145514996/95ded27d-5d5e-413e-8812-cc3be8243bd5)
-- \B: 단어 경계가 아님 --> /Ya\B/ ->
-![image](https://github.com/gogoringhye/regiex/assets/145514996/44a8d544-5306-47d8-b3be-bc7057a0bfca)
- - ^ :문장의 시작
-![image](https://github.com/gogoringhye/regiex/assets/145514996/78b57ac9-ae05-47c0-997f-b42b46919921)
+   - \b  : 단어경계      
+   - \B  : 단어경계가 아님
+   - ^   : 문장의 시작
+   - $   : 문장의 끝
 
- - \B : 단어경계가 아님
- - ^ : (대괄호 밖의 꺽새는) 문장의 시작
- - $ : 문장의 끝![image](https://github.com/gogoringhye/regiex/assets/145514996/c30942c8-0028-4d64-9484-17bcb2dadd22)
+  4) 특징을 이용하는 방법
+     - \ : 특수문자가 아닌 문자
+     - . : 어떤 글자(줄바꿈 문자 제외)
+     - \d: 숫자
+     - \D: 숫자 아님
+     - \w : 문자
+     - \W : 문자 아님
+     - \s  : 공백
+     - \S  : 공백 아님
 
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/2efc7d18-872e-4750-9f08-0f52552bba49)
 
-4) 특징을 이용하는 방법
-   - \ : 특수문자 .를 찾고자할때
- - ![image](https://github.com/gogoringhye/regiex/assets/145514996/a8fc5c93-34fc-49fb-b672-8fd809422250)
-    - . : 어떤 글자(줄바꿈 문자 제외)
-  ![image](https://github.com/gogoringhye/regiex/assets/145514996/0fe2995c-5ce9-408f-b671-691be329b2eb)
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/aff12b22-5705-4be9-ba39-592336feca70)
 
-   - \d:(digit) 숫자
-   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/1b2e9441-53a8-431c-bd77-2511d0a891e2)
+# gr로 시작하고 중간글자가  e 또는 a 가 되고  y로 끝나는것을 찾음
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/9d54dcca-ffcd-4356-89f1-c43fc5a24122)
 
-   - \D: 숫자가 아님
-   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/bee5215f-9ff9-4415-b168-3ac998aba596)
-
-   - \w: 문자--> 문자와 숫자
-   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/3ad36596-f6fc-4afc-b4b1-e1af201718ed)
-
-   - \W: 문자 아님
-   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/d0ab7304-0ad1-4e40-b775-1d7bf0d71494)
-
-   - \s: 공백
-   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/553b7b7b-547e-4e71-81ea-598d54077674)
-
-   - \S: 공백 아님
-   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/60b3a4b8-0835-4d17-9e17-f9ce522530b5)
+# 찾아는 지지만 그룹으로 만들고 싶지 않다면 사용   
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/b0330007-df73-4950-b376-e16bb13e9f91)
 
 
-라인 마다마다
-![image](https://github.com/gogoringhye/regiex/assets/145514996/3aac4b6a-ebb0-45dc-9f97-35535ce28f58)
+# gr로 시작하고 a또는 e 또는 d 가 있고 y로 끝남
+# [aed]  --> 대괄호안에 있는 글자중 하나라도 만족하는것을 찾아라는 의미 
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/f9f241d8-8285-435f-a584-8692f7ff50f4)
+
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/2d28193c-416a-4f1b-a96f-8fc57b7e49d4)
 
 
-![image](https://github.com/gogoringhye/regiex/assets/145514996/29c6528e-58f8-43fc-b9a0-c7b6ab3c5870)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/8c5a79b3-8470-4902-8753-72ab0c2a2217)
+# 아래 두 이미지는 gr로 시작하고 a~g사이의 글자중 하나라도 포함되고 y로 끝나는 것을 찾음
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/81b911a6-9879-4a3a-ae04-ed042aba73a9)
 
-# EX로 시작하고 중간글자가 p 또는 r가 되고 끝에는 l로 되는 것을 찾을 수 있음 
-![image](https://github.com/gogoringhye/regiex/assets/145514996/643dc367-c33d-4a90-b27b-2ae8f5bff75f)
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/79687923-4c92-4c7d-b7ab-01f7ca06c3ab)
 
-# 찾아는 지지만 그룹으로 만들고 싶지 않다면 사용 
-![image](https://github.com/gogoringhye/regiex/assets/145514996/28a45566-3e9f-44b1-88d2-be9c0053e661)
+# a 부터 z까지, A 부터 Z까지 0부터 9까지 하나라도 만족하면 모두 찾는다
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/ae66b905-31e8-4e99-92f7-fed568a7c623)
 
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/7a6b0e0f-2e4e-4bb4-8693-1d5f94b356fa)
 
+# ? :있거나 없거나 (많거나X)
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/f1f5fe3f-fec7-4aff-b53a-0c6ab1dcc129)
 
-# 또는(Ex로 시작하고 p또는 r 또는 e가 있고 l로 끝남)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/b5b69959-050d-41c0-bcbc-b199e0b32729)
+# * :있거나 없거나 많거나
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/b3313be5-ab40-4287-9136-b3f7e2227e32)
 
-# Ex로 시작하고 중간 글자가 pre가 되고 l로 끝나는 것을 찾음
-![image](https://github.com/gogoringhye/regiex/assets/145514996/7ac94d7b-cb80-426a-a3f0-4fb8245fa3e8)
-
-# 아래 두 이미지는 Ex로 시작하고 a~g 사이의 글자 중 하나라도 포함되고 y로 끝나는 것을 찾음
-![image](https://github.com/gogoringhye/regiex/assets/145514996/b263833b-f2d0-4d4d-ad86-62c3529693d6)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/cbb1fcff-2934-40ea-9a64-f1fbe633b7a0)
-
-# 소문자 a부터 z까지, A부터 Z까지, 0부터 9까지 하나라도 만족하면 모두 찾는다
-![image](https://github.com/gogoringhye/regiex/assets/145514996/b630d50a-002c-477b-a722-27b3ef05d6bf)
-
-# 반대로 특수문자만 선택되는 경우(^)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/7704e5ac-6486-49cd-9dd9-f01b6a4b135a)
-
-# ?: 있거나 없거나 (많거나X)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/597f7c07-bdf2-4efb-aad0-72283edc2aaa)
-
-# *: 있거나 없거나 많거나
-![image](https://github.com/gogoringhye/regiex/assets/145514996/903b7168-a814-48b5-b1f7-127618f3e324)
-
-# +: 하나 또는 많거나 (one or more)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/0a13d23b-113f-4915-9cca-8ea9a022dcc5)
-
-# {n} :n번 반복(ex. s 두번 반복)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/9bce5939-e443-406d-b3e4-15941c6e69f0)
+# + : 하나 또는 많거나(one or more)
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/26fa9597-3e6c-49c7-94e7-89b89c01470a)
 
 
-# {min,}: 최소
-![image](https://github.com/gogoringhye/regiex/assets/145514996/7b79ec39-234d-4029-8bbd-f077c0835c31)
+# {n} : n번 반복
 
-# {min,max}:최소 그리고 최대(s를 2개부터 4개까지 찾음)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/d738aa70-ef43-4a0f-957f-677102f3b3e0)
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/ee8b5521-2c00-4756-b3fd-fd71754b85b6)
+
+# {min,} : 최소
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/2520e054-bd40-49cb-bc6e-9ace1325ead7)
+
+
+# {min,max} : 최소 그리고 최대
+![image](https://github.com/understanding963852/604_regiex/assets/60366769/b3ae102f-4b85-4f70-bddf-ed8282e0ce99)
 
 
 
 
-복습
-![image](https://github.com/gogoringhye/regiex/assets/145514996/52dc2f53-5482-4c81-8998-27473cdf2a97)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/9bdc2b8b-f398-4223-bbfb-88bcbbe90e2a)
-![image](https://github.com/gogoringhye/regiex/assets/145514996/1bad9ec0-8eff-4095-839b-2dd8849f958b)
-
-
+   - \b  : 단어경계      
+   - \B  : 단어경계가 아님
+   - ^   : 문장의 시작
+   - $   : 문장의 끝
