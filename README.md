@@ -50,6 +50,7 @@
 4) 특징을 이용하는 방법
    - \ : 특수문자가 아닌 문자
    - . : 어떤 글자(줄바꿈 문자 제외)
+   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/a8fc5c93-34fc-49fb-b672-8fd809422250)
    - \d:(digit) 숫자
    - \D: 숫자가 아님
    - \w: 문자
