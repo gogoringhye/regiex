@@ -66,7 +66,11 @@
    - ![image](https://github.com/gogoringhye/regiex/assets/145514996/d0ab7304-0ad1-4e40-b775-1d7bf0d71494)
 
    - \s: 공백
-   - \S: 공백 아님 
+   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/553b7b7b-547e-4e71-81ea-598d54077674)
+
+   - \S: 공백 아님
+   - ![image](https://github.com/gogoringhye/regiex/assets/145514996/60b3a4b8-0835-4d17-9e17-f9ce522530b5)
+
 
 라인 마다마다
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/3aac4b6a-ebb0-45dc-9f97-35535ce28f58)
