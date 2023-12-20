@@ -33,7 +33,9 @@
    - {min,max}: 최소(얼마) 그리고 최대(얼마)
 
 3) 경계에 대한
- - \b : 단어경계
+ - \b : 단어경계 --> /\bEx --> 단어 중에서 Ya로 시작하는 것
+   ![image](https://github.com/gogoringhye/regiex/assets/145514996/bfc558c7-32e2-4214-9d45-998bc9b734b6)
+
  - \B : 단어경계가 아님
  - ^ : (대괄호 밖의 꺽새는) 문장의 시작
  - $ : 문장의 끝
@@ -97,6 +99,7 @@
 
 # {min,max}:최소 그리고 최대(s를 2개부터 4개까지 찾음)
 ![image](https://github.com/gogoringhye/regiex/assets/145514996/d738aa70-ef43-4a0f-957f-677102f3b3e0)
+
 
 
 
