@@ -47,49 +47,49 @@
 
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/aff12b22-5705-4be9-ba39-592336feca70)
 
-# gr로 시작하고 중간글자가  e 또는 a 가 되고  y로 끝나는것을 찾음
+### gr로 시작하고 중간글자가  e 또는 a 가 되고  y로 끝나는것을 찾음
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/9d54dcca-ffcd-4356-89f1-c43fc5a24122)
 
-# 찾아는 지지만 그룹으로 만들고 싶지 않다면 사용   
+### 찾아는 지지만 그룹으로 만들고 싶지 않다면 사용   
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/b0330007-df73-4950-b376-e16bb13e9f91)
 
 
-# gr로 시작하고 a또는 e 또는 d 가 있고 y로 끝남
-# [aed]  --> 대괄호안에 있는 글자중 하나라도 만족하는것을 찾아라는 의미 
+### gr로 시작하고 a또는 e 또는 d 가 있고 y로 끝남
+### [aed]  --> 대괄호안에 있는 글자중 하나라도 만족하는것을 찾아라는 의미 
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/f9f241d8-8285-435f-a584-8692f7ff50f4)
 
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/2d28193c-416a-4f1b-a96f-8fc57b7e49d4)
 
 
-# 아래 두 이미지는 gr로 시작하고 a~g사이의 글자중 하나라도 포함되고 y로 끝나는 것을 찾음
+### 아래 두 이미지는 gr로 시작하고 a~g사이의 글자중 하나라도 포함되고 y로 끝나는 것을 찾음
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/81b911a6-9879-4a3a-ae04-ed042aba73a9)
 
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/79687923-4c92-4c7d-b7ab-01f7ca06c3ab)
 
-# a 부터 z까지, A 부터 Z까지 0부터 9까지 하나라도 만족하면 모두 찾는다
+### a 부터 z까지, A 부터 Z까지 0부터 9까지 하나라도 만족하면 모두 찾는다
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/ae66b905-31e8-4e99-92f7-fed568a7c623)
 
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/7a6b0e0f-2e4e-4bb4-8693-1d5f94b356fa)
 
-# ? :있거나 없거나 (많거나X)
+### ? :있거나 없거나 (많거나X)
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/f1f5fe3f-fec7-4aff-b53a-0c6ab1dcc129)
 
-# * :있거나 없거나 많거나
+### * :있거나 없거나 많거나
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/b3313be5-ab40-4287-9136-b3f7e2227e32)
 
-# + : 하나 또는 많거나(one or more)
+### + : 하나 또는 많거나(one or more)
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/26fa9597-3e6c-49c7-94e7-89b89c01470a)
 
 
-# {n} : n번 반복
+### {n} : n번 반복
 
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/ee8b5521-2c00-4756-b3fd-fd71754b85b6)
 
-# {min,} : 최소
+### {min,} : 최소
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/2520e054-bd40-49cb-bc6e-9ace1325ead7)
 
 
-# {min,max} : 최소 그리고 최대
+### {min,max} : 최소 그리고 최대
 ![image](https://github.com/understanding963852/604_regiex/assets/60366769/b3ae102f-4b85-4f70-bddf-ed8282e0ce99)
 
 
